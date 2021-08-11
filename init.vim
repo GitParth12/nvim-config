@@ -15,3 +15,17 @@ call plug#end()
 
 colorscheme gruvbox 
 nnoremap <silent> <C-n> :NERDTreeFocus<CR>
+
+filetype plugin indent on
+syntax on
+set colorcolumn=80
+set background=dark
+highligh ColorColumn ctermbg=0 guibg=lightgrey
+set number
+set nowrap
+set smartcase
+set hlsearch
+set noerrorbells
+set tabstop=4 softtabstop=4
+set expandtab
+set smartindent
